@@ -1,4 +1,4 @@
-number = rand(1...101)
+number = rand(1..100)
 puts "I've picked a number between 1 and 100."
 print "Please guess a number: "
 guess = gets.chomp.to_i
